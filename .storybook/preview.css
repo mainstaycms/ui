@@ -1,0 +1,6 @@
+@import 'tailwindcss';
+@import '../resources/css/theme.css';
+
+/* The workshop's own utilities: theme.css scans the components, and the
+   decorators and story fixtures beside them are not part of the library. */
+@source '../stories';
